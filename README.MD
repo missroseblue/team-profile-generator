@@ -14,6 +14,8 @@ This app was created using Object-Oriented Programming concepts, namely using cl
 
 This app uses concepts from Test-Driven Development. Jest is used to perform tests on all the class constructors to ensure that they behave as expected. The FS node module is used to generate an HTML file from strings written in JavaScript. Since the app will work no matter how many employees the user adds to the system, the HTML is built in a piecemeal fashion, starting with the head and part of the body. For each employee object created, a new column with a card inside containing the employee information is added. Then when the last member has been added, the last bit of the HTML is added to the file. One complication experienced during this process was that since the fs.appendFile method is asynchronous, the bottom part of the HTML could be added before the HTML containing information on the last employee had been added. In order to deal with this, the function that adds the employee information to the HTML was converted into a promise, and only once the promise was resolved would the bottom part of the HTML be added to the output file.
 ## Questions
-If you have additional questions about my project, you can reach me at:\n
-GitHub Username: missroseblue\n
+If you have additional questions about my project, you can reach me at:
+
+GitHub Username: missroseblue
+
 Email: missroseblue@gmail.com
