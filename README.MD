@@ -5,6 +5,9 @@ The Team Profile Generator is a command-line-input application run in Node that 
 
 Upon launching the app, the user is asked to describe the first employee of their team. The user enters the team employee's name, selects that employee's role from a list (options include "Engineer," "Intern," and "Manager), enters the employee's ID (any string), enters the employee's email address, and then must enter another piece of information that will differ depending on what role was selected. If "Engineer" was selected, the app asks the user for the team employee's GitHub username; if "Intern" was selected, the employee's school is requested; and if "Manager" was chosen, the user is prompted for the Managers's office number.
 
+![2021-10-17_14-15-26](https://user-images.githubusercontent.com/28720227/137645339-a6049e9c-e1fb-4883-9e3a-a049e605f882.jpg)
+
+
 When all information on the employee has been entered, the user is asked whether there are any more members they would like to add. If so, the user is asked the same questions about the new employees. If not, an HTML file is created with cards displaying the information on all the employees entered by the
 ## Technologies Used
 This app was created using Object-Oriented Programming concepts, namely using classes and constructors to create "employee" objects based on information entered by the user. The app is run using Node.js, and uses the "Inquirer" and "FS" node modules. Files for different objects are also stored in separate .js files and passed among one another using module.exports and require.
