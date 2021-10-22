@@ -150,7 +150,7 @@ function addHtml(member) {
         </div>`
         }
         console.log("adding team member");
-        fs.appendFile("./dist/team.html", data, function (err) {
+        fs.appendFile("./dist/index.html", data, function (err) {
             if (err) {
                 return reject(err);
             };
